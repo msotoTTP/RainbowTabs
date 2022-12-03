@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		F00F883C293BF62300CBAA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F883B293BF62300CBAA3B /* AppDelegate.swift */; };
 		F00F883E293BF62300CBAA3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F883D293BF62300CBAA3B /* SceneDelegate.swift */; };
-		F00F8840293BF62300CBAA3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F883F293BF62300CBAA3B /* ViewController.swift */; };
+		F00F8840293BF62300CBAA3B /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F883F293BF62300CBAA3B /* BlueViewController.swift */; };
 		F00F8843293BF62300CBAA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00F8841293BF62300CBAA3B /* Main.storyboard */; };
 		F00F8845293BF62500CBAA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00F8844293BF62500CBAA3B /* Assets.xcassets */; };
 		F00F8848293BF62500CBAA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00F8846293BF62500CBAA3B /* LaunchScreen.storyboard */; };
+		F08EE295293C03200060C2D5 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08EE294293C03200060C2D5 /* GreenViewController.swift */; };
+		F08EE297293C03540060C2D5 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08EE296293C03540060C2D5 /* RedViewController.swift */; };
+		F08EE299293C03690060C2D5 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08EE298293C03690060C2D5 /* YellowViewController.swift */; };
+		F08EE29B293C03800060C2D5 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08EE29A293C03800060C2D5 /* OrangeViewController.swift */; };
+		F08EE29D293C03980060C2D5 /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08EE29C293C03980060C2D5 /* IndigoViewController.swift */; };
+		F08EE29F293C03A80060C2D5 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08EE29E293C03A80060C2D5 /* PurpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F00F8838293BF62300CBAA3B /* RainbowTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00F883B293BF62300CBAA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F00F883D293BF62300CBAA3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F00F883F293BF62300CBAA3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F00F883F293BF62300CBAA3B /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		F00F8842293BF62300CBAA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F00F8844293BF62500CBAA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F00F8847293BF62500CBAA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F00F8849293BF62500CBAA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08EE294293C03200060C2D5 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		F08EE296293C03540060C2D5 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		F08EE298293C03690060C2D5 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		F08EE29A293C03800060C2D5 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		F08EE29C293C03980060C2D5 /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
+		F08EE29E293C03A80060C2D5 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				F00F883B293BF62300CBAA3B /* AppDelegate.swift */,
 				F00F883D293BF62300CBAA3B /* SceneDelegate.swift */,
-				F00F883F293BF62300CBAA3B /* ViewController.swift */,
+				F00F883F293BF62300CBAA3B /* BlueViewController.swift */,
+				F08EE294293C03200060C2D5 /* GreenViewController.swift */,
 				F00F8841293BF62300CBAA3B /* Main.storyboard */,
+				F08EE29E293C03A80060C2D5 /* PurpleViewController.swift */,
+				F08EE29C293C03980060C2D5 /* IndigoViewController.swift */,
+				F08EE29A293C03800060C2D5 /* OrangeViewController.swift */,
+				F08EE298293C03690060C2D5 /* YellowViewController.swift */,
+				F08EE296293C03540060C2D5 /* RedViewController.swift */,
 				F00F8844293BF62500CBAA3B /* Assets.xcassets */,
 				F00F8846293BF62500CBAA3B /* LaunchScreen.storyboard */,
 				F00F8849293BF62500CBAA3B /* Info.plist */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F00F8840293BF62300CBAA3B /* ViewController.swift in Sources */,
+				F08EE297293C03540060C2D5 /* RedViewController.swift in Sources */,
+				F08EE295293C03200060C2D5 /* GreenViewController.swift in Sources */,
+				F08EE29F293C03A80060C2D5 /* PurpleViewController.swift in Sources */,
+				F00F8840293BF62300CBAA3B /* BlueViewController.swift in Sources */,
 				F00F883C293BF62300CBAA3B /* AppDelegate.swift in Sources */,
+				F08EE299293C03690060C2D5 /* YellowViewController.swift in Sources */,
+				F08EE29B293C03800060C2D5 /* OrangeViewController.swift in Sources */,
+				F08EE29D293C03980060C2D5 /* IndigoViewController.swift in Sources */,
 				F00F883E293BF62300CBAA3B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
